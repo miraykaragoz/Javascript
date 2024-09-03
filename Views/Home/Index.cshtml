@@ -1,0 +1,120 @@
+﻿
+@* 
+<p>Merhaba <strong>Miray Karagöz</strong></p>
+
+<p class="metin"></p>
+
+<form id="todoForm">
+<input required type="text" name="todo" placeholder="yapılacak iş">
+<button>ekle</button>
+    <button type="button" id="clearTodoBtn">temizle</button>
+</form>
+
+<ul id="todoList">
+
+</ul> *@
+
+
+
+
+
+@* Adres ödevi *@
+@* <form id="addressForm">
+    <input required type="text" name="FullName" placeholder="Ad Soyad">
+    <input required type="tel" name="PhoneNumber" placeholder="Telefon Numarası">
+    <input required type="text" name="Address" placeholder="Adres">
+    <button>Gönder</button>
+    <button type="button" id="clearAddressBtn">Temizle</button>
+</form>
+
+<table id="addressList">
+
+</table> *@
+
+ 
+
+
+
+@* Adres defteri ders odev *@
+@* <form id="adresFormu" class="mb-3">
+    <div class="row">
+        <div class="col-6 mb-3">
+            <label for="adSoyadInput" class="form-label">Ad Soyad</label>
+            <input required type="text" name="adSoyad" class="form-control" id="adSoyadInput">
+        </div>
+        <div class="col-6 mb-3">
+            <label for="emailInput" class="form-label">E-Posta Adresi</label>
+            <input type="email" name="ePosta" class="form-control" id="emailInput" placeholder="ornek@alanadi.com">
+
+        </div>
+        <div class="col-6 mb-3">
+            <label for="telInput" class="form-label">Telefon Numarası</label>
+            <input type="text" name="telefon" class="form-control" id="telInput">
+        </div>
+        <div class="col-6 mb-3">
+            <label for="cinsInput" class="form-label">Cinsiyet</label>
+            <select name="cinsiyet" class="form-select" id="cinsInput">
+                <option selected disabled value="">Seçiniz</option>
+                <option>Kadın</option>
+                <option>Erkek</option>
+                <option>Atak Helikopteri</option>
+            </select>
+        </div>
+        <div class="text-end">
+            <button class="btn btn-primary">Ekle</button>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ad Soyad</th>
+            <th>E-Posta</th>
+            <th>Telefon</th>
+            <th>Cinsiyet</th>
+        </tr>
+    </thead>
+    <tbody id="adresTablosu"></tbody>
+</table> *@
+
+
+
+
+
+@*Öğrenci notları ödevi*@
+@* <form id="studentForm">
+    <input type="text" name="FullName" placeholder="Ad Soyad" required>
+    <input type="text" name="Department" placeholder="Bölüm" required>
+    <input type="number" name="Midterm" placeholder="Vize Notu" required>
+    <input type="number" name="Final" placeholder="Final Notu" required>
+    <button>Ekle</button>
+    <button id="clearStudentBtn">Listeyi Temizle</button>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>Ad Soyad</th>
+            <th>Bölüm</th>
+            <th>Vize</th>
+            <th>Final</th>
+            <th>Ortalama</th>
+            <th>Not</th>
+        </tr>
+    </thead>
+    <tbody id="studentList"></tbody>
+</table> *@
+
+
+
+
+
+<form id="addUserForm">
+    <p><input type="text" name="firstName" placeholder="Ad" required></p>
+    <p><input type="text" name="lastName" placeholder="Soyad" required></p>
+    <p><input type="number" name="age" placeholder="Yaş" required></p>
+    <button>Ekle</button>
+</form>
+
+<ul id="studentList"></ul>
